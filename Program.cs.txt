@@ -1,0 +1,34 @@
+﻿using System;
+
+namespace Activity1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {//Begin
+
+            //Numeric p,l,luas
+            double p, l, luas;
+
+            //Display 'Masukkan panjangnya: '
+            Console.Write("Masukkan panjangnya = ");
+
+            //Accept p
+            p = Convert.ToDouble(Console.ReadLine());
+
+            //Display 'Masukkan lebarnya: '
+            Console.Write("Masukkan lebarnya = ");
+
+            //Accept l
+            l = Convert.ToDouble(Console.ReadLine());
+
+            //Compute luas = p * l
+            luas = p * l;
+
+            //Display 'Luasnya= ' + luas
+            Console.WriteLine("Luasnya = {0}", luas);
+            Console.WriteLine("Panjang = {0} Lebar = {1} Luasnya = {2}", p, l, luas);
+
+        }//End
+    }
+}
